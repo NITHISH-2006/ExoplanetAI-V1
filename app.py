@@ -7,10 +7,10 @@ import os
 # Add src to path
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'src'))
 
-from data_generator import RealisticDataGenerator
-from model import LightweightDetector
-from physics_engine import OrbitalPhysics
-from explainer import AttentionExplainer
+from src.data_generator import RealisticDataGenerator
+from src.model import LightweightDetector
+from src.physics_engine import OrbitalPhysics
+from src.explainer import AttentionExplainer
 
 # Page config
 st.set_page_config(
